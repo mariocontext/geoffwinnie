@@ -1,0 +1,11 @@
+1.4 - 02/08/2012 - Removed <meta  charset="utf-8" /> from header.php file. Added max-width:none to ie.css file to fix issue with text fields in contact form in IE. Added width:auto to img in main.css to fix issue with images being squished in IE8 in some cases. Updated logo area in header to work with Stacks instead of Scrapbooks (now to add your own logo, create a stack named Site Name and add your logo to that).
+
+1.3.1 - 01/23/2012 - Fixed mistake made with CSS for slideshow block scaling (in 1.3 I added CSS for layouts fix instead of slideshow fix. removed that and added slideshow CSS fix back in).
+
+1.3 - 01/18/2012 - Mobile view changes: Made main nav items full width and stacked vertically, added bottom margin to all columns, made copyright and credit lines in footer not float, added fix to make images in default concrete5 slideshow block scale like regular images,  made breadcrumbs not float to right.
+
+1.2 - 12/02/2011 - Fixed bug with logo not displaying in IE8. Fixed z-index bug with main nav dropdowns in IE (dropdowns were behind some elements). Moved jQuery function for image hover opacity from superfish.js to functions.js.
+
+1.1 - 11/26/2011 - Fixed issue with Breadcrumbs not showing all pages in trail. Removed page-meta div from blog_entry.php and pb_post.php and incorporated it in the pagemeta.php file. Updated ProBlog page type (pb_post.php) with newest trackback area. Added style for layouts in mobile.css file - made it so layout columns go to 100% width when viewed in mobile browser.
+
+1.0 - 10/28/2011 - Initial Release

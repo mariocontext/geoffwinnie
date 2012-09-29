@@ -1,0 +1,98 @@
+/* Minimal Skin */
+body {
+	background-color:#fff;
+	margin:0 3%;
+	margin:0px\9;
+}
+
+#container {
+	background:none;
+	max-width:1020px;
+	width:984px\9!important;
+}
+
+header {
+	background:none;
+	padding:40px 0!important;
+	border-top:none;
+}
+
+nav {
+    background:none;
+	margin-bottom:2%;
+    padding:5px 0!important;
+	border-top:3px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.sf-sub-indicator {
+	background:url('images/arrows-gray.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+nav ul li a {
+	color:#666;
+	text-shadow:none;
+}
+nav ul li a:hover, nav ul li a.nav-selected, nav ul li a.nav-path-selected, nav ul li:hover {
+	background:#ddd;
+	color:#444;
+}
+nav li li {
+	background:#ddd;
+}
+nav li li a:hover, nav li li a.nav-selected, nav li li a.nav-path-selected {
+	background:#ccc;
+}
+
+#feature .has-content {
+	padding-bottom:2.5%;
+}
+
+#wrapper {
+	padding:0 0 2%!important;
+}
+
+#sidebar ul.nav {
+	border-top:3px solid #ccc;
+}
+#sidebar ul.nav li {
+	margin:0;
+}
+#sidebar ul.nav li a {
+	background:none;
+	border-left:none;
+	border-bottom:1px solid #ccc
+}
+
+footer {
+	background:none;
+	padding:3.8% 0!important;
+	border-top:3px solid #ccc;
+	color:#666;
+	text-shadow:none;
+}
+footer a {
+	color:#666;
+}
+footer a:hover {
+	color:#555;
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+	color:#444;
+}
+footer #credits {
+	border-top:1px solid #ccc;
+	padding-top:2%;
+}
+footer ul li {
+	border-bottom-color:#ccc;
+}
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+	nav {
+		padding:0!important;
+	}
+	.sf-menu li {
+		border-top:1px solid #ddd!important;
+	}
+}

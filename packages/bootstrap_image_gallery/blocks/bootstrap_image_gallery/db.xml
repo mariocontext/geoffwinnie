@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btBootstrapImageGallery">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" type="I"><unsigned /></field>		
+		<field name="imgwidth" type="C" size="255" ></field>
+		<field name="imgheight" type="C" size="255" ></field>
+		<field name="aspectratio" type="C" size="255" ></field>
+		<field name="checkimg" type="C" size="255" ></field>
+		<field name="startss" type="C" size="255" ></field>
+		<field name="tfull" type="C" size="255" ></field>
+		<field name="cdnstatus" type="C" size="255"></field>
+		<field name="autocdn" type="C" size="255"></field>
+		<field name="cdnurl" type="C" size="255"></field>
+		<field name="downloadbtn" type="C" size="255"></field>
+	</table>
+	
+	<table name="btBootstrapImageGalleryImg">
+		<field name="BootstrapGalleryImgId" type="I">
+			<key />
+			<autoincrement />
+			<unsigned />
+		</field>
+		<field name="bID" type="I"><unsigned /></field>
+		<field name="fID" type="I"><unsigned /></field>	
+		<field name="animation" type="C" size="255"></field>		
+		<field name="url" type="C" size="255"></field>
+		<field name="duration" type="I"><unsigned /></field>
+		<field name="fadeDuration" type="I"><unsigned /></field>
+		<field name="groupSet" type="I"><unsigned /></field>
+		<field name="position" type="I"><unsigned /></field>	
+		<field name="imgHeight" type="I"><unsigned /></field>							
+	</table>
+	
+</schema>

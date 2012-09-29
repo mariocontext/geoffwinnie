@@ -1,0 +1,24 @@
+2.1.1.1
+modal fix
+
+2.1.1
+Update to bootstrap framework 2.1.1
+css fixes
+support for concrete5 v5.6.x
+
+1.2
+js and css link fixes for external custom templates
+
+1.1
+Grouped options into separate tabs
+Added 2 additional custom templates
+Added ability to generate mobile optimized images
+Added ability to hide/show download button on slideshow
+Changed active state color on toggle fullscreen button to be more noticeable
+CSS adjustments for mobile slideshow
+Added js to arrage thumbnail layout
+Removed thumbnail checking
+Fix for sort order
+Fix for keep aspect ratio
+
+1.0 - Initial Release

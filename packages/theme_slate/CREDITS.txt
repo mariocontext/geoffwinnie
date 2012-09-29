@@ -1,0 +1,18 @@
+Credits:
+
+CSS Grid:
+Columnal by Pulp+Pixels: http://www.pulpandpixels.com/
+http://www.columnal.com/
+License: http://creativecommons.org/licenses/by-sa/3.0/us/
+
+Drop Down Navigation:
+Superfish
+http://users.tpg.com.au/j_birch/plugins/superfish/
+
+Lightbox:
+FancyBox
+http://fancybox.net/
+
+Image Helper Class Code:
+jordanlev & kirkroberts
+http://www.concrete5.org/community/forums/customizing_c5/getthumbnail-function-fill-out-dimensions/#89293

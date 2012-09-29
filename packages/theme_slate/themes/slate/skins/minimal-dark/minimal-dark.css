@@ -1,0 +1,139 @@
+/* Minimal Dark Skin */
+body {
+	background-color:#1c1c1c;
+	margin:0 3%;
+	margin:0px\9;
+	color:#888;
+}
+
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6 {
+    color: #ccc;
+}
+#container hr {
+	color:#444;
+	background-color:#444;
+}
+#container blockquote, #container blockquote p { color: #ccc; }
+#container blockquote { border-left-color: #444; }
+#container blockquote cite { color: #888; }
+#container blockquote cite a, #container blockquote cite a:visited, #container blockquote cite a:visited { color: #888; }
+
+#container {
+	background:none;
+	max-width:1020px;
+	width:984px\9!important;
+}
+
+header {
+	background:none;
+	padding:40px 0!important;
+	border-top:none;
+}
+
+#logo a {
+	color:#ccc;
+}
+a#logo-text {
+    background-color:#666;
+	color:#ddd;
+    border-bottom-color:#444;
+	text-shadow:1px 1px 1px #333, -1px -1px 2px #ccc;
+}
+a#logo-text:hover {
+	background:#555;
+	border-bottom-color:#333;
+	text-shadow:1px 1px 1px #333, -1px -1px 2px #ccc;
+}
+
+nav {
+    background:none;
+	margin-bottom:2%;
+    padding:5px 0!important;
+	border-top:3px solid #444;
+	border-bottom:1px solid #444;
+}
+.sf-sub-indicator {
+	background:url('images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+nav ul li a {
+	color:#ccc;
+	text-shadow:none;
+}
+nav ul li a:hover, nav ul li a.nav-selected, nav ul li a.nav-path-selected, nav ul li:hover {
+	background:#333;
+	color:#ccc;
+}
+nav li li {
+	background:#333;
+}
+nav li li a:hover, nav li li a.nav-selected, nav li li a.nav-path-selected {
+	background:#2b2b2b;
+}
+
+#feature .has-content {
+	padding-bottom:2.5%;
+}
+
+#wrapper {
+	padding:0 0 2%!important;
+}
+
+#page-meta {
+    border-bottom: 1px solid #444;
+}
+
+#sidebar ul.nav {
+	border-top:3px solid #444;
+}
+#sidebar ul.nav li {
+	margin:0;
+}
+#sidebar ul.nav li a {
+	background:none;
+	border-left:none;
+	border-bottom:1px solid #444;
+	color:#ccc;
+}
+#sidebar a:hover, #sidebar ul.nav li a.nav-selected, #sidebar ul.nav li a.nav-path-selected {
+    background: #333 !important;
+    color: #ccc !important;
+}
+
+footer {
+	background:none;
+	padding:3.8% 0!important;
+	border-top:3px solid #444;
+	color:#666;
+	text-shadow:none;
+}
+footer a {
+	color:#666;
+}
+footer a:hover {
+	color:#555;
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+	color:#444;
+}
+footer #credits {
+	border-top:1px solid #444;
+	padding-top:2%;
+}
+footer ul li {
+	border-bottom-color:#444;
+}
+
+h4.guestBook-title {
+	border-bottom-color:#444!important;
+}
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+	nav {
+		padding:0!important;
+	}
+	.sf-menu li {
+		border-top:1px solid #333!important;
+	}
+}

@@ -1,0 +1,2 @@
+Slate
+A clean, minimal, and mobile-friendly theme with lots of features.
