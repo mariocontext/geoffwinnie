@@ -82,5 +82,19 @@
 		float: none !important;
 		width: 100% !important;
 	}
+
+	/* custom tweaks by mario@contextmultimedia.com */
+
+	#lightbox-container-image-box{
+
+		 height:auto !important;
+
+	}
+
+	#lightbox-container-image-box, #lightbox-container-image-data-box {
+
+		width: 100% !important;
+
+	}
 	
 }

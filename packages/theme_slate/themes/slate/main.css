@@ -725,3 +725,12 @@ ul.ccm-search-block-tag-cloud li a {
 }
 
 /* customize_miscellaneous *//* customize_miscellaneous */
+
+/* misc tweaks by mario */
+
+/* free gallery tweaks */
+
+#container .ccm-gallery {
+border: none;
+}
+}
