@@ -112,6 +112,7 @@ a#logo-text:hover {
 /*  Main Navigation  */
 
 /*** SUPERFISH ESSENTIAL STYLES ***/
+
 .sf-menu, .sf-menu * {
 	margin:0;
 	padding:0;
@@ -217,6 +218,7 @@ li.sfHover > a > .sf-sub-indicator {
 .sf-shadow ul.sf-shadow-off {
 	background: transparent;
 }
+
 
 nav {
 	/* customize_nav_background */background-color:#323232;/* customize_nav_background */

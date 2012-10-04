@@ -32,7 +32,12 @@
 
 <?php   Loader::element('header_required'); ?>
 
-<script type="text/javascript" src="<?php  echo $this->getThemePath(); ?>/js/superfish.js"></script>
+<style>
+/* dropdowns removed holding here temporarily
+<!--script-- type=text/javascript src=echo $this->getThemePath(); /js/superfish.js><--/script-->
+*/
+
+</style>
 
 <!-- FancyBox -->
 <script type="text/javascript" src="<?php  echo $this->getThemePath(); ?>/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
